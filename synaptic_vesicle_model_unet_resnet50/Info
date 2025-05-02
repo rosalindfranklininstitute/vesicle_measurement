@@ -1,0 +1,9 @@
+Model: U-Net
+Encoder: resnet50
+Training axis: z
+Quality prediction: low
+Frozen cycles: 8 
+Unfrozen cycles: 5
+Loss criterion: BCEDiceLoss
+Evaluation metric: MeanIoU
+
